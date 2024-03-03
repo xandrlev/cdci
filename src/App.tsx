@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>MY SUPER APP</h1>
+      {import.meta.env.VITE_API_KEY}{" "}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
